@@ -1,0 +1,40 @@
+        <section>
+            <article>
+                <h3>Pagá con tarjeta o en efectivo</h3>
+                <div>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</div>
+            </article>
+        </section>
+
+
+en head
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3#ebebeb;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+#83888a;
+
+● Tipografías
+Familia: 'Roboto'
+Nos envían esta demo de cómo cargar fuentes de Google Fonts. Además
+podemos consultar el siguiente recurso aquí, para más detalle.
+● Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+
+Micro desafío - Paso 2
+En nuestro login.html debemos lograr que cuando el mouse esté por encima del botón
+de envío del formulario, su color de fondo cambie a #0022AA.
