@@ -1,0 +1,422 @@
+* {
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+
+.encabezado-logo {
+    padding: 10px 15px;
+    max-width: 200px;
+}
+
+.encabezado-buscador {
+    font-size: 12px;
+    text-align: right;
+
+}
+
+.encabezado-pago-cuotas {
+    text-align: center;
+    color: #222222;
+    font-weight: 200;
+}
+
+header {
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.burger-button {
+    background-color: #0d21a1;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    max-width: 45px;
+    padding: 8px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.lupa {
+    padding: 0;
+}
+
+.fa-hand-holding-dollar {
+    padding: 0;
+}
+
+.contenedor-formato-menu {
+    display: none;
+
+}
+
+.contenedor-formato-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.formato-menu-izquierda li a {
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    color: #222222;
+}
+
+.formato-menu-derecha li a {
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    color: #222222;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+main {
+    width: 90%;
+    background-color: #ebebeb;
+    margin: auto;
+}
+
+.banner {
+    background-size: contain;
+}
+
+.images-home {
+    background-size: cover;
+    background-color: #EAC926;
+}
+
+.contentedor-ultima-visita-ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center
+}
+
+.contenedor-articulo {
+    margin: 10px;
+    background-color: white;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.contenedor-descripciones {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+}
+
+.fa-truck {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: all 450ms;
+}
+
+.imagen-articulos {
+    width: 100%;
+    margin: auto;
+}
+
+.titulares {
+    font-size: 24px;
+    text-align: left;
+    color: #666;
+}
+
+.precios {
+    font-size: 18px;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.descripciones {
+    font-size: 16px;
+    color: #666;
+    font-weight: 200;
+}
+
+.alineacion-footer {
+    text-align: center;
+    color: #666;
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.columna-footer {
+    width: 33%;
+    padding: 5px;
+}
+
+.imagen-footer {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    transition: color, 200ms;
+}
+
+.copyright {
+    display: flex;
+    align-items: left;
+    color: #666;
+    background-color: white;
+    padding: 5px;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+@media (min-width: 361px) {
+    .descripciones {
+        display: none;
+    }
+
+    .contenedor-formato-menu {
+        display: none;
+    }
+
+
+}
+
+/*----------------------------------------------------------------------------------*/
+@media (min-width: 481px) {
+    .contenedor-articulo {
+        width: 20%;
+        margin: 2%;
+    }
+
+    .contenedor-descripciones {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .precios {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 18px;
+
+    }
+
+    .descuentos {
+        width: 50%;
+        text-align: right;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 16px;
+    }
+
+    .descripciones {
+        display: block;
+    }
+
+    .contenedor-logo-buscador {
+        display: flex;
+        width: 70%;
+        flex-wrap: nowrap;
+    }
+
+    .contenedor-encabezado {
+        display: flex;
+    }
+
+    .encabezado-logo {
+        max-width: 600px;
+        width: 45%;
+    }
+
+    .encabezado-buscador {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buscador {
+        font-size: 9px;
+    }
+
+    .lupa {
+        font-size: 9px;
+    }
+
+    .encabezado-pago-cuotas {
+        font-size: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-formato-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contenedor-formato-menu ul {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .contenedor-formato-menu li {
+        margin: 0 4px;
+    }
+
+    .burger-button {
+        display: none
+    }
+
+    .contenedor-articulo {
+        width: 40%;
+        margin: 2%;
+    }
+
+}
+
+/*----------------------------------------------------------------------------------*/
+@media (min-width: 769px) {
+
+    .contenedor-articulo {
+        width: 20%;
+        margin: 2%;
+        box-shadow: none;
+    }
+
+    .contenedor-descripciones {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .contenedor-articulo:hover .descripciones {
+        display: block;
+    }
+
+    .contenedor-articulo:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .contenedor-articulo:hover .fa-truck {
+        transform: rotate(-90deg);
+    }
+
+    .precios {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+    }
+
+    .descuentos {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 16px;
+        padding: 3px;
+    }
+
+    .descripciones {
+        display: none;
+    }
+
+    .contenedor-logo-buscador {
+        display: flex;
+        width: 70%;
+        flex-wrap: nowrap;
+    }
+
+    .contenedor-encabezado {
+        display: flex;
+        font-size: 12px;
+    }
+
+
+    .encabezado-logo {
+        max-width: 600px;
+        width: 55%;
+    }
+
+    .encabezado-buscador {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buscador {
+        font-size: 12px;
+    }
+
+    .lupa {
+        font-size: 12px;
+    }
+
+    .encabezado-pago-cuotas {
+        width: 40%;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*flex-end*/
+    }
+
+    .contenedor-formato-menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+    .contenedor-formato-menu ul {
+        display: flex;
+        font-size: 12px;
+    }
+
+    .contenedor-formato-menu li {
+        margin: 0 10px;
+    }
+
+    .burger-button {
+        display: none
+    }
+
+    .imagen-footer:hover {
+        color: #EAC926;
+
+    }
+
+
+
+}
