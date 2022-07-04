@@ -98,25 +98,29 @@ main {
 
 
 .contenedor-registro-usuario {
-    border: 2px solid #666;
+    border: 2px solid #02204f;
     width: 50%;
     margin: auto;
     border-radius: 12px;
     padding: 20px;
-    background-color: white;
+
 }
 
 .titulo-registro {
     text-align: center;
-
+    color: #02204f
 }
 
 .contenedor-datos {
     border: none;
     border-radius: 3px;
     background-color: #ebebeb;
+    border: 2px solid #666;
+    width: 90%;
 
 }
+
+
 
 .titulos {
     font-style: bold;
@@ -124,15 +128,18 @@ main {
 
 .buttons {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    font-weight: bold;
+    padding: 5px;
 }
 
 .button {
     padding: 5px;
     border-radius: 8px;
     justify-content: center;
-
+    margin: 5px;
+    color: white;
+    background-color: #666;
 }
 
 
