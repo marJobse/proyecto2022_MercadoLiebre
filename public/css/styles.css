@@ -148,15 +148,19 @@ main {
 
 .precios {
     font-size: 18px;
-    flex-wrap: wrap;
     width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .descuentos {
     font-size: 16px;
     color: #39b54a;
-    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
     width: 70%;
+    padding: 15px;
 }
 
 .descripciones {
@@ -319,7 +323,7 @@ main {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-
+        padding: 5px;
     }
 
     .contenedor-articulo:hover .descripciones {
