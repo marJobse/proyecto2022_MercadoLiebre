@@ -1,0 +1,318 @@
+* {
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+.encabezado-logo {
+    padding: 10px 15px;
+    max-width: 200px;
+}
+
+.encabezado-buscador {
+    font-size: 12px;
+    text-align: right;
+
+}
+
+.encabezado-pago-cuotas {
+    text-align: center;
+    color: #222222;
+    font-weight: 200;
+}
+
+header {
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+
+.lupa {
+    padding: 0;
+}
+
+.fa-hand-holding-dollar {
+    padding: 0;
+}
+
+.contenedor-formato-menu {
+    display: none;
+
+}
+
+.contenedor-formato-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.formato-menu-izquierda li a {
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    color: #222222;
+}
+
+.formato-menu-derecha li a {
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    color: #222222;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+main {
+    width: 90%;
+    background-color: #ebebeb;
+    margin: auto;
+}
+
+
+.banner {
+    background-size: contain;
+}
+
+.images-home {
+    background-size: cover;
+    background-color: #EAC926;
+}
+
+.contenedor-registro-usuario {
+    width: 85%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 20px
+}
+
+.contenedores-dato-ingreso {
+    padding: 5px;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.contenedor-input-datos {
+    border: none;
+    padding: 5px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #1259c3;
+    border: #1259c3;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+
+}
+
+.button-ref {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+}
+
+.alineacion-footer {
+    text-align: center;
+    color: #666;
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+}
+
+.imagen-footer {
+    color: #1259c3;
+    font-size: 2em;
+}
+
+.copyright {
+    display: flex;
+    align-items: left;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+@media (min-width: 361px) {
+    .descripciones {
+        display: none;
+    }
+
+    .contenedor-formato-menu {
+        display: none;
+    }
+
+    .contenedor-logo-buscador {
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+/*----------------------------------------------------------------------------------*/
+@media (min-width: 481px) {
+    .contenedor-articulo {
+        width: 20%;
+        margin: 2%;
+    }
+
+    .contenedor-descripciones {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .precios {
+        width: 50%;
+    }
+
+    .descuentos {
+        width: 50%;
+        text-align: right;
+    }
+
+    .descripciones {
+        display: block;
+    }
+
+    .contenedor-logo-buscador {
+        display: flex;
+        width: 70%;
+    }
+
+    .contenedor-encabezado {
+        display: flex;
+    }
+
+    .encabezado-logo {
+        max-width: 600px;
+        width: 45%;
+    }
+
+    .encabezado-buscador {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        /*flex-end*/
+    }
+
+    .buscador {
+        font-size: 9px;
+    }
+
+    .lupa {
+        font-size: 9px;
+    }
+
+    .encabezado-pago-cuotas {
+        font-size: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-formato-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contenedor-formato-menu ul {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .contenedor-formato-menu li {
+        margin: 0 4px;
+    }
+
+    .burger-button {
+        display: none
+    }
+
+    .contenedor-articulo {
+        width: 40%;
+        margin: 2%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+}
+
+/*----------------------------------------------------------------------------------*/
+@media (min-width: 769px) {
+
+
+    .contenedor-logo-buscador {
+        display: flex;
+        width: 70%;
+    }
+
+    .contenedor-encabezado {
+        display: flex;
+        font-size: 12px;
+    }
+
+
+    .encabezado-logo {
+        max-width: 600px;
+        width: 55%;
+    }
+
+    .encabezado-buscador {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*flex-end*/
+    }
+
+    .buscador {
+        font-size: 12px;
+    }
+
+    .lupa {
+        font-size: 12px;
+    }
+
+    .encabezado-pago-cuotas {
+        width: 40%;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*flex-end*/
+    }
+
+    .contenedor-formato-menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+
+    .contenedor-formato-menu ul {
+        display: flex;
+        font-size: 12px;
+    }
+
+    .contenedor-formato-menu li {
+        margin: 0 10px;
+    }
+
+    .burger-button {
+        display: none
+    }
+
+    .button:hover {
+        background-color: #0022AA;
+    }
+
+}
