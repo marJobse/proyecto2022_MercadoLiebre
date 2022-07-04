@@ -69,7 +69,6 @@ body {
 }
 
 main {
-    width: 90%;
     background-color: #ebebeb;
     margin: auto;
 }
@@ -85,7 +84,6 @@ main {
 }
 
 .contenedor-registro-usuario {
-    width: 85%;
     margin: auto;
     border-radius: 12px;
     padding: 20px
@@ -156,6 +154,11 @@ main {
         align-items: center;
 
     }
+
+    .contenedor-registro-usuario {
+        width: 80%;
+    }
+
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -163,6 +166,10 @@ main {
     .contenedor-articulo {
         width: 20%;
         margin: 2%;
+    }
+
+    .contenedor-registro-usuario {
+        width: 50%;
     }
 
     .contenedor-descripciones {
@@ -255,6 +262,10 @@ main {
     .contenedor-logo-buscador {
         display: flex;
         width: 70%;
+    }
+
+    .contenedor-registro-usuario {
+        width: 40%;
     }
 
     .contenedor-encabezado {
