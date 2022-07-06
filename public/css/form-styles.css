@@ -78,6 +78,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     background-color: #ebebeb;
+    margin: 0px;
+
 }
 
 main {
@@ -142,25 +144,35 @@ main {
 
 
 
-
 .alineacion-footer {
     text-align: center;
     color: #666;
     background-color: white;
-    padding: 5px;
+    padding: 15px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.columna-footer {
+    width: 33%;
+    padding: 5px;
+}
 
 .imagen-footer {
     color: #1259c3;
     font-size: 2em;
     margin-bottom: 10px;
+    transition: color, 200ms;
 }
 
 .copyright {
     display: flex;
     align-items: left;
+    color: #666;
+    background-color: white;
+    padding: 5px;
 }
 
 /*----------------------------------------------------------------------------------*/
@@ -355,6 +367,12 @@ main {
     .burger-button {
         display: none
     }
+
+    .imagen-footer:hover {
+        color: #EAC926;
+
+    }
+
 
 
 }
