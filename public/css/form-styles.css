@@ -124,7 +124,7 @@ main {
 }
 
 .contenedor-registro {
-    padding: 15px;
+    padding: 8px 15px;
     margin: auto;
 }
 
@@ -300,7 +300,7 @@ main {
     }
 
     .contenedor-registro {
-        padding: 10px;
+        padding: 8px 10px;
         width: 85%;
     }
 
@@ -406,7 +406,7 @@ main {
     }
 
     .contenedor-registro {
-        padding: 30px;
+        padding: 8px 30px;
     }
 
 
