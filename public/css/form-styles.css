@@ -122,6 +122,11 @@ main {
 
 }
 
+.contenedor-registro {
+    padding: 20px;
+    margin: auto;
+}
+
 .titulos {
     font-style: bold;
 }
