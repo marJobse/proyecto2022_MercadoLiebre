@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .encabezado-logo {
     padding: 10px 15px;
     max-width: 200px;
@@ -38,7 +37,6 @@ header {
     border-radius: 8px;
     text-align: center;
     font-size: 25px;
-
 }
 
 .lupa {
