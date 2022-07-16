@@ -10,12 +10,12 @@ app.listen(process.env.PORT || 3000, () => console.log('Servidor corriendo en el
 const mainRoutes = require('./routes/mainRoutes');
 app.use("/", mainRoutes)
 
-// Ruta del Register
-const userRoutes = require('./routes/userRoutes');
-app.use("/register", userRoutes)
+// Ruta del Register y Login (mismo controlador)
 
-// Ruta del Login
-const userRoutes = require('./routes/userRoutes');
-app.use("/login", userRoutes)
+const usersRoutes = require('./routes/usersRoutes');
+app.use("/users", usersRoutes)
+
+
+
 
 
